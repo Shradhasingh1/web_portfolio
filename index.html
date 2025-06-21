@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fanta.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+     integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Shradha's Portfolio</title>
+</head>
+<body>
+    <header>
+        <a href="/">Shradha Singh</a>
+        <nav>
+            <a  target="_blank" href=""><i class="fa-brands fa-linkedin"></i></a>
+            <a target="_blank" href=""><i class="fa-brands fa-github"></i></a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div>
+                <h1>👋 Konnichiwa! I'm Shradha...</h1>
+                <p>Software Developer</p>
+            </div>
+            <h5>part developer, part bug-fighter, full-time learner.
+              I build things that (hopefully) don't break and love making tech feel human.</h5>
+                <div class="links-container">
+                <i class="fa-solid link-arrow fa-arrow-right"></i>
+                <a href="mailto:jamesmca@live.com">
+                    Email me
+                </a>
+                <a target="_blank" href="https://github.com/jamezmca">GitHub</a>
+                <a target="_blank" href="https://www.linkedin.com/in/jamezmcarthur/">LinkedIn</a>
+            </div>
+            <div id="play-game">
+                <button onclick="playGame()">Play Game??</button> 
+            </div>
+
+             <div style="display: none;" class="color-div">
+                <p >Pick a color</p>
+                 <p style="display: none;">REALLY?This color....</p>
+                <input type="color" id="color-picker" onchange="changeColor()" value="0084ff"/>
+                <button style="display: none;">Reset</button>
+            </div>
+        </section>
+        <section>
+            <h2>Skills</h2>
+            <table>
+                <thead>
+                    <th>Area</th>
+                    <th>Technologies</th>
+                </thead>
+                <tbody>
+                    <tr> 
+                    <td>Javascript</td>
+                    <td>ReactJS | NextJS | NodeJS & ExpressJS</td>
+                    </tr>
+                     <tr> 
+                    <td>C++</td>
+                    <td>DSA | Problem Solving</td>
+                    </tr> 
+                    <tr>
+                     <td>Web</td>
+                    <td>TailwindCSS | FantaCSS | Firebase | PostgreSQL | CI/CD | Docker | Kubernetes | AWS
+</td>
+                    </tr>
+                     <tr>
+                     <td>Version Control</td>
+                    <td>Git | GitHub | Occasional panic commits</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5> Still learning, still building — and having fun with it.</h5>
+        </section>
+    </main>
+    <footer>
+        <p>By <a href="">Shradha Singh</a>⭐ the repo on  <a target="_blank" href="">Github</a></p>
+    </footer>
+    <script></script>
+    
+</body>
+</html>
