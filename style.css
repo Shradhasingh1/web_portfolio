@@ -96,3 +96,13 @@ section{
     font-size: 0.8rem;
 }
 
+@media (min-width:640px) {
+    .project-card{
+        flex-direction: row;
+    }
+
+    .project-card img-div{
+        max-width: 30%;
+    }
+    
+}
